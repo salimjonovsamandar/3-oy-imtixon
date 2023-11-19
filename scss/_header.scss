@@ -1,0 +1,56 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background: rgb(248 248 249);
+  .local {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transition: all 0.5s;
+    a {
+      margin-left: 4px;
+      color: #6c7178;
+      text-decoration: none;
+      transition: all 0.5s;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    :hover {
+      color: #337ab7;
+    }
+  }
+}
+.myself {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    transition: all 0.5s;
+    a {
+      text-decoration: none;
+      color: rgb(108 113 120);
+      transition: all 0.5s;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    :hover {
+      color: #337ab7;
+    }
+  }
+  select {
+    border: none;
+    color: rgb(108 113 120);
+    background: rgb(248 248 249);
+
+    option {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
