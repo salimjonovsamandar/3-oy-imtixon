@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
   padding: 10px 15px;
   background: rgb(248 248 249);
   .local {
@@ -9,26 +10,29 @@
     align-items: center;
     gap: 24px;
     transition: all 0.5s;
+    
     a {
+ 
       margin-left: 4px;
       color: #6c7178;
       text-decoration: none;
       transition: all 0.5s;
       font-size: 12px;
-      font-weight: 400;
+      font-weight: 400; 
     }
     :hover {
       color: #337ab7;
     }
   }
 }
-.myself {
-  display: flex;
-  align-items: center;
+.myself_nav {
+ display: flex; 
+  text-align: center;
   gap: 24px;
 
   ul {
     display: flex;
+    align-items: center;
     gap: 24px;
     list-style: none;
     transition: all 0.5s;
@@ -38,15 +42,21 @@
       transition: all 0.5s;
       font-size: 12px;
       font-weight: 400;
+      
     }
     :hover {
       color: #337ab7;
     }
   }
   select {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
     border: none;
     color: rgb(108 113 120);
     background: rgb(248 248 249);
+   
 
     option {
       font-size: 12px;

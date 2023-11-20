@@ -1,0 +1,40 @@
+.kategoriya {
+  padding: 0px 15px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  .kategoriya__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    a {
+      text-decoration: none;
+      font-weight: 500;
+      color: rgb(29, 36, 47);
+      :hover {
+        color: #337ab7;
+      }
+    }
+  }
+}
+
+.kategoriya__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+
+  .barcha {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 215px;
+    height: 81px;
+    padding: 16px;
+    border-radius: 18px;
+    border: 1px solid rgb(245, 245, 244);
+  }
+}

@@ -33,33 +33,196 @@ body {
   color: #337ab7;
 }
 
-.myself {
+.myself_nav {
   display: flex;
-  align-items: center;
+  text-align: center;
   gap: 24px;
 }
-.myself ul {
+.myself_nav ul {
   display: flex;
+  align-items: center;
   gap: 24px;
   list-style: none;
   transition: all 0.5s;
 }
-.myself ul a {
+.myself_nav ul a {
   text-decoration: none;
   color: rgb(108, 113, 120);
   transition: all 0.5s;
   font-size: 12px;
   font-weight: 400;
 }
-.myself ul :hover {
+.myself_nav ul :hover {
   color: #337ab7;
 }
-.myself select {
+.myself_nav select {
+  display: flex;
+  align-items: center;
+  text-align: center;
   border: none;
   color: rgb(108, 113, 120);
   background: rgb(248, 248, 249);
 }
-.myself select option {
+.myself_nav select option {
   font-size: 12px;
   font-weight: 400;
+}
+
+.information {
+  background: white;
+}
+
+.information__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.information__container .search {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.information__container .search button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(217, 46, 21);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid rgb(217, 46, 21);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.information__container .search button img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(2%) hue-rotate(236deg) brightness(105%) contrast(101%);
+}
+.information__container .search input {
+  width: 577px;
+  height: 51px;
+  padding: 0px 20px;
+  border-radius: 12px;
+  border: 1px solid rgb(69, 62, 62);
+}
+.information__container .search .sech {
+  width: 20px;
+  height: 20px;
+  background: #000;
+}
+.information__container .items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.information__container .items .buyurtma {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.information__container .items .buyurtma :hover {
+  color: #337ab7;
+}
+.information__container .items .buyurtma p {
+  font-weight: 500;
+  color: rgb(29, 36, 47);
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.nav__link {
+  padding: 6px 15px 16px;
+  gap: 29px;
+  overflow-x: hidden;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: all 0.5s;
+}
+.nav__link a {
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 400;
+  color: rgb(108, 113, 120);
+  transition: all 0.5s;
+}
+.nav__link :first-child {
+  width: 100px;
+  height: 25px;
+  border: 1px solid 34dd01;
+  padding: 6px 13px;
+  border-radius: 20px;
+  background: #34dd01;
+  color: white;
+}
+.nav__link :hover {
+  color: #337ab7;
+}
+
+.kategoriya {
+  padding: 0px 15px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.kategoriya .kategoriya__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kategoriya .kategoriya__text h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.kategoriya .kategoriya__text a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(29, 36, 47);
+}
+.kategoriya .kategoriya__text a :hover {
+  color: #337ab7;
+}
+
+.kategoriya__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+.kategoriya__card .barcha {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 215px;
+  height: 81px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgb(245, 245, 244);
+}
+
+.artel {
+  padding: 0px 15px;
+}
+.artel h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.artel .artel__nav a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px 14px;
+  border: 1px solid #6c7178;
+  background-color: #ededed;
+  border-radius: 40px;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+.artel .artel__nav :first-child {
+  background-color: #000;
+  color: white;
+}
+.artel .artel__nav :hover {
+  background-color: #000000;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

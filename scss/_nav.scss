@@ -1,0 +1,28 @@
+.nav__link{
+    padding: 6px 15px 16px;
+    gap: 29px;
+    overflow-x:hidden;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: all 0.5s;
+    a{
+        text-decoration: none;
+        margin-right: 15px;
+       font-weight: 400;
+       color: rgb(108,113,120);
+       transition: all 0.5s;
+    }
+    :first-child{
+        width: 100px;
+        height: 25px;
+     border: 1px solid 34dd01;
+     padding: 6px 13px;
+     border-radius: 20px;
+     background: #34dd01;
+     color:white
+     
+    }
+    :hover {
+        color: #337ab7;
+      } 
+}
