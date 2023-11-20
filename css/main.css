@@ -231,10 +231,18 @@ body {
   margin-top: 50px;
   width: 215px;
   padding: 12px;
-  border: 2px solid rgb(224, 222, 222);
   border-radius: 20px;
   display: flex;
-  gap: 65px;
+  gap: 25px;
+}
+.artel__card .telvizor__card {
+  transition: all 0.5s linear;
+  border: 2px solid transparent;
+  padding: 15px;
+  border-radius: 12px;
+}
+.artel__card .telvizor__card:hover {
+  border-color: rgb(224, 222, 222);
 }
 .artel__card h5 {
   background-color: rgb(14, 126, 46);
@@ -312,4 +320,58 @@ body {
 }
 .artel__card .card__footer :first-child:hover {
   background-color: rgb(159, 48, 30);
+}
+
+.yangilik__text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: -20px;
+}
+
+.yangilik h5 {
+  background-color: rgb(211, 33, 64);
+}
+
+.xitlar__main {
+  display: flex;
+  gap: 35px;
+}
+
+.Xitlar__text {
+  margin-bottom: -30px;
+  margin-top: 15px;
+}
+.Xitlar__text h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Xitlar h5 {
+  background-color: rgb(211, 33, 64);
+}
+.Xitlar button {
+  padding: 14px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid rgb(217, 46, 21);
+  border-radius: 10px;
+  background-color: rgb(217, 46, 21);
+  color: white;
+  transition: all 0.5s;
+}
+.Xitlar button:hover {
+  background-color: transparent;
+  color: rgb(217, 46, 21);
+}
+
+.nav__artel {
+  margin-bottom: -30px;
+}
+
+.carousel__img img {
+  border-radius: 30px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */
