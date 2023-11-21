@@ -1,0 +1,49 @@
+.tanlashlar {
+  padding: 0px 15px;
+  margin-top: 36px;
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.main__tanlash {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  .tanlash {
+    width: 240px;
+    height: 226px;
+    padding: 16px;
+    border: 2px solid rgb(250, 241, 241);
+    border-radius: 20px;
+
+    img{
+        padding: 10px;
+        background: rgb(253 245 243);
+        border-radius: 10px;
+    }
+
+    cursor: pointer;
+
+      transition: all 0.5s linear;
+      // border: 2px solid transparent;
+
+      &:hover {
+        border-color: rgb(204, 204, 204);
+      }
+    h4 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      margin-top: 16px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(108 113 120);
+        line-height: 120%;
+    }
+  }
+}
+}

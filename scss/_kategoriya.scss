@@ -35,6 +35,15 @@
     height: 81px;
     padding: 16px;
     border-radius: 18px;
-    border: 1px solid rgb(245, 245, 244);
+    border: 2px solid rgb(236, 228, 228);
+    cursor: pointer;
+
+    transition: all 0.5s linear;
+    // border: 2px solid transparent;
+    
+
+    &:hover {
+      border-color: rgb(161, 149, 149);
+    }
   }
 }

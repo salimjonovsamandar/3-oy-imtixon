@@ -16,6 +16,7 @@
       border-radius: 40px;
       margin-right: 10px;
       transition: all 0.5s;
+      
     }
     :first-child {
       background-color: #000;
@@ -42,9 +43,13 @@
     border: 2px solid transparent;
     padding: 15px;
     border-radius: 12px;
+    cursor: pointer;
 
     &:hover {
       border-color: rgb(224, 222, 222);
+    }
+    .sum{
+      margin-top: 25px;
     }
   }
   h5 {
@@ -64,6 +69,8 @@
     font-size: 12px;
     font-weight: 500;
     color: rgb(108 113 120);
+    display: inline-block;
+    padding-top: 15px;
   }
   h3 {
     margin-top: 4px;
@@ -72,11 +79,11 @@
   }
   h6 {
     margin-top: 8px;
-    border: 1px solid black;
+    border: 1px solid rgb(11 43 94);
     padding: 5px 10px;
     font-size: 14px;
     font-weight: 400;
-    color: rgb(108 113 120);
+    color: rgb(11 43 94);
     text-align: center;
     border-radius: 8px;
   }
@@ -171,7 +178,7 @@
     border: 1px solid rgb(217 46 21);
     border-radius: 10px;
     background-color: rgb(217 46 21);
-
+cursor: pointer;
     color: white;
     transition: all 0.5s;
 

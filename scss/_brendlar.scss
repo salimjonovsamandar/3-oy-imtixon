@@ -1,0 +1,28 @@
+.brendlar {
+  padding: 0px 15px;
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+  .main__brend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .brend {
+      margin-top: 15px;
+      border: 2px solid rgb(250, 241, 241);
+      padding: 20px 50px;
+      border-radius: 20px;
+      cursor: pointer;
+
+      transition: all 0.5s linear;
+      // border: 2px solid transparent;
+
+      &:hover {
+        border-color: rgb(204, 204, 204);
+      }
+    }
+  }
+}

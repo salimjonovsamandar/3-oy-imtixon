@@ -196,7 +196,12 @@ body {
   height: 81px;
   padding: 16px;
   border-radius: 18px;
-  border: 1px solid rgb(245, 245, 244);
+  border: 2px solid rgb(236, 228, 228);
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.kategoriya__card .barcha:hover {
+  border-color: rgb(161, 149, 149);
 }
 
 .artel {
@@ -240,9 +245,13 @@ body {
   border: 2px solid transparent;
   padding: 15px;
   border-radius: 12px;
+  cursor: pointer;
 }
 .artel__card .telvizor__card:hover {
   border-color: rgb(224, 222, 222);
+}
+.artel__card .telvizor__card .sum {
+  margin-top: 25px;
 }
 .artel__card h5 {
   background-color: rgb(14, 126, 46);
@@ -260,6 +269,8 @@ body {
   font-size: 12px;
   font-weight: 500;
   color: rgb(108, 113, 120);
+  display: inline-block;
+  padding-top: 15px;
 }
 .artel__card h3 {
   margin-top: 4px;
@@ -268,11 +279,11 @@ body {
 }
 .artel__card h6 {
   margin-top: 8px;
-  border: 1px solid black;
+  border: 1px solid rgb(11, 43, 94);
   padding: 5px 10px;
   font-size: 14px;
   font-weight: 400;
-  color: rgb(108, 113, 120);
+  color: rgb(11, 43, 94);
   text-align: center;
   border-radius: 8px;
 }
@@ -358,6 +369,7 @@ body {
   border: 1px solid rgb(217, 46, 21);
   border-radius: 10px;
   background-color: rgb(217, 46, 21);
+  cursor: pointer;
   color: white;
   transition: all 0.5s;
 }
@@ -374,4 +386,139 @@ body {
   border-radius: 30px;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.notebook h4 {
+  margin: 30px 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.notebook__card__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.notebook__card__main .notebook__card {
+  width: 220px;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s linear;
+  border: 2px solid transparent;
+}
+.notebook__card__main .notebook__card:hover {
+  border-color: rgb(224, 222, 222);
+}
+.notebook__card__main .notebook__card .notebook__star {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+.notebook__card__main .notebook__card .notebook__star img:first-child {
+  margin-left: 28px;
+}
+.notebook__card__main .notebook__card span {
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  color: rgb(108, 113, 120);
+}
+.notebook__card__main .notebook__card h3 {
+  font-size: 18px;
+  margin-top: 36px;
+  margin-bottom: 15px;
+}
+.notebook__card__main .notebook__card .footer__notebook {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: rgb(249, 249, 249);
+  border-radius: 12px;
+  text-align: center;
+  padding: 3px;
+}
+.notebook__card__main .notebook__card .footer__notebook span {
+  padding: 9px 9px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1px;
+  border-radius: 12px;
+}
+.notebook__card__main .notebook__card .footer__notebook p {
+  margin-top: 7px;
+  margin-right: 10px;
+  color: rgb(83, 85, 88);
+}
+
+.brendlar {
+  padding: 0px 15px;
+}
+.brendlar h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+.brendlar .main__brend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brendlar .main__brend .brend {
+  margin-top: 15px;
+  border: 2px solid rgb(250, 241, 241);
+  padding: 20px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.brendlar .main__brend .brend:hover {
+  border-color: rgb(204, 204, 204);
+}
+
+.tanlashlar {
+  padding: 0px 15px;
+  margin-top: 36px;
+}
+.tanlashlar h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.tanlashlar .main__tanlash {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tanlashlar .main__tanlash .tanlash {
+  width: 240px;
+  height: 226px;
+  padding: 16px;
+  border: 2px solid rgb(250, 241, 241);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.tanlashlar .main__tanlash .tanlash img {
+  padding: 10px;
+  background: rgb(253, 245, 243);
+  border-radius: 10px;
+}
+.tanlashlar .main__tanlash .tanlash:hover {
+  border-color: rgb(204, 204, 204);
+}
+.tanlashlar .main__tanlash .tanlash h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.tanlashlar .main__tanlash .tanlash p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(108, 113, 120);
+  line-height: 120%;
 }/*# sourceMappingURL=main.css.map */
