@@ -449,9 +449,10 @@ body {
   border-radius: 12px;
 }
 .notebook__card__main .notebook__card .footer__notebook p {
-  margin-top: 7px;
-  margin-right: 10px;
-  color: rgb(83, 85, 88);
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 15px;
+  color: rgb(68, 70, 73);
 }
 
 .brendlar {
