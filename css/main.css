@@ -97,7 +97,8 @@ body {
   transition: all 0.5s;
 }
 .information__container .search button img {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(2%) hue-rotate(236deg) brightness(105%) contrast(101%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(2%)
+    hue-rotate(236deg) brightness(105%) contrast(101%);
 }
 .information__container .search input {
   width: 577px;
@@ -522,4 +523,42 @@ body {
   font-weight: 400;
   color: rgb(108, 113, 120);
   line-height: 120%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.online {
+  background-color: #f8f8f9;
+  height: 330px;
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 55px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.online .online__text {
+  margin-top: 90px;
+}
+.online .online__text h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.online .online__text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6c7178;
+  width: 368px;
+  margin-bottom: 45px;
+}
+.online .online__text .app {
+  cursor: pointer;
+}
+.online .online__tel {
+  top: -40px;
+  left: 970px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=main.css.map */

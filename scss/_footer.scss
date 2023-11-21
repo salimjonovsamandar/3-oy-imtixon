@@ -1,1 +1,120 @@
+.footer__top {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 64px;
+  padding-bottom: 48px;
+  background-color: rgb(29 36 47);
+  nav {
+    span {
+      font-size: 14px;
+      color: white;
+      font-weight: 500;
+      display: block;
+    }
+    p {
+      font-size: 14px;
+      color: white;
+      font-weight: 500;
+      margin-top: 32px;
+      margin-bottom: 10px;
+    }
+    a {
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 20px;
+      text-decoration: none;
+      display: block;
+    }
+    h3 {
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+}
+.img__card {
+  background-color: rgb(34 44 58);
+  align-items: center;
+  width: 144px;
+  height: 53px;
+  border-radius: 12px;
+  justify-content: center;
+  display: flex;
+}
+.item__logo {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 341px;
+}
+.cards__item {
+  p {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+.information {
+  width: 193px;
+  .information__links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
 
+  a {
+    margin-left: 0px;
+    color: rgb(245 245 246);
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    transition: $transision;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+.footer__top__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.social__network {
+  display: flex;
+  gap: 24px;
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+}
+.footer__bottom {
+  background-color: rgb(34 44 58);
+}
+.footer__bottom__contenier {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
